@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="SlideInHelper.widget.SlideInHelper" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>SlideInHelper</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="side" type="string" required="false" defaultValue="left">
+            <caption>Side</caption>
+            <category>Appearance</category>
+            <description>Should the widget peek from the right or the left? (right | left)</description>
+        </property>
+        <property key="depth" type="integer" required="true" defaultValue="37">
+            <caption>Depth</caption>
+            <category>Appearance</category>
+            <description>How far from the top of the screen should the widget be? (percentage--default is 37)</description>
+        </property>
+    </properties>
+</widget>
